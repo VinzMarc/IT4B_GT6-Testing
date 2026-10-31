@@ -1,0 +1,86 @@
+{
+  "items": [
+    {
+      "id": "1",
+      "title": "Blue backpack",
+      "description": "Lost near the library stairs",
+      "location": "Library entrance",
+      "type": "lost",
+      "reportedBy": "Jane Dela Cruz",
+      "reportedAt": "2026-07-24",
+      "isClaimed": false
+    },
+    {
+      "id": "2",
+      "title": "Silver MacBook",
+      "description": "Found in the engineering building",
+      "location": "Engineering Building",
+      "type": "found",
+      "reportedBy": "Campus Security",
+      "reportedAt": "2026-07-23",
+      "isClaimed": false
+    },
+    {
+      "id": "3",
+      "title": "Gray hoodie",
+      "description": "Lost inside the cafeteria",
+      "location": "Main cafeteria",
+      "type": "lost",
+      "reportedBy": "Samuel Reyes",
+      "reportedAt": "2026-07-22",
+      "isClaimed": false
+    },
+    {
+      "title": "Wallet",
+      "description": "Near the MB501",
+      "location": "Classroom",
+      "type": "lost",
+      "reportedBy": "VinzMarc",
+      "reportedAt": "2026-09-06",
+      "isClaimed": false,
+      "id": "axwPCdyruAo"
+    },
+    {
+      "title": "Wallet",
+      "description": "Found at MB501",
+      "location": "Classroom",
+      "type": "found",
+      "reportedBy": "samuel",
+      "reportedAt": "2026-09-06",
+      "isClaimed": false,
+      "id": "ykvp4Su_s2c"
+    },
+    {
+      "title": "BLACK Wallet",
+      "description": "MB501",
+      "location": "Classroom",
+      "type": "lost",
+      "reportedBy": "VinzMarc",
+      "reportedAt": "2026-09-06",
+      "isClaimed": false,
+      "id": "V79GQt5DFNY"
+    }
+  ],
+  "claims": [],
+  "users": [
+    {
+      "id": "1",
+      "name": "Jane Dela Cruz",
+      "email": "jane@example.com",
+      "role": "student"
+    },
+    {
+      "id": "2",
+      "name": "Samuel Reyes",
+      "email": "samuel@example.com",
+      "role": "student"
+    },
+    {
+      "id": "3",
+      "name": "Campus Security",
+      "email": "security@campus.edu",
+      "role": "staff"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
